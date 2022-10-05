@@ -1,5 +1,5 @@
 ## Daily Study
->2022-10-05
+>**2022-10-05**
 - about HTML
    - webpage, HTML,CSS,javascript
    - HTML Doc structure, !Doctype,head,body
