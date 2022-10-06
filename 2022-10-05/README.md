@@ -1,4 +1,4 @@
-## Stuffs I make today
+## Stuffs today
 ---
 >**Quiz explain**   
 1. HTML, use tag ```<h>``` and ```<p>``` input text
