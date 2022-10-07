@@ -27,4 +27,13 @@
    - Dummy img site,   
    https://placeimg.com
 >**2022-10-07**
-- 
+- about Javascript
+   - Variable, declaration, initialize
+   - Console.log(), +,-,*,/, can use variable for initialize
+   - Data type, number,string,boolean
+   - Data type, Array,Object
+   - Function declaration, use variable, return
+   - if,else, for
+   - use JS, let HTML elements as a variable
+   - use JS, handle HTML elements
+   - make event, click,resize
