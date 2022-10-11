@@ -37,3 +37,15 @@
    - use JS, let HTML elements as a variable
    - use JS, handle HTML elements
    - make event, click,resize
+>**2022-10-11**
+- about JQuery
+   - make jQuery object, using selector
+   - amend elements, using .html(), .empty(), .remove(), .append(), css()
+   - search elements, using .children(), .find(), .parent(), next(), prev(), .filter()
+   - .legth, .index, .each
+   - apply animation
+   - amend attribute of elements, .attr(), .class
+   - make event
+   - tips for jQuery
+      - using function and variable for code
+      - using boolean(true/false) for event
