@@ -1,6 +1,6 @@
 ## Stuffs today
 ---
->**Quiz explain**   
+>*file explain*   
 1. HTML, use tag ```<h>``` and ```<p>``` input text
 2. HTML, use tag ```<h>, <p>, <ul>, <ol>``` make doc
 3. HTML, use tag ```<ul>``` make doc, consider nested elements
