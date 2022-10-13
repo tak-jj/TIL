@@ -1,4 +1,15 @@
 ## Stuffs today
+>**2022-10-07**
+- about Javascript
+   - Variable, declaration, initialize
+   - Console.log(), +,-,*,/, can use variable for initialize
+   - Data type, number,string,boolean
+   - Data type, Array,Object
+   - Function declaration, use variable, return
+   - if,else, for
+   - use JS, let HTML elements as a variable
+   - use JS, handle HTML elements
+   - make event, click,resize
 ---
 >*file explain*
 - jsPractice01, understanding variable
@@ -22,3 +33,6 @@
 - jsTask05, input number, sum 1 to number function
 - jsTask06, input array, count assigned element function
 - jsTask07, input array, average assigned element function
+---
+- jsHtmlPractice01, get HTML elements as variable, handling elements
+- 
