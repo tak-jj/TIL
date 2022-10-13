@@ -1,0 +1,15 @@
+>**2022-10-13**
+- about python
+   - python introduction
+   - basic python grammar
+   - python tool(?), Anaconda,jupyter,VS code
+   - print
+   - input
+   - variable
+   - datatype, JSON
+   - Operator
+   - Conditional, loop
+   - Function
+   - Class
+   - import, err handling
+   - IO
