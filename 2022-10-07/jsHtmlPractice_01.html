@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsHtmlPractice</title>
+</head>
+<body>
+    <h1>hello</h1>
+    <p class="test">testing</p>
+    <p class="test">testing</p>
+    <p id="lulu">lulu</p>
+    <script>
+        let h1Element = document.getElementsByName('h1');
+        let testClass = document.getElementsByClassName('.test');
+        let luluId = document.getElementById('#lulu');
+        console.log(h1Element, testClass, luluId)
+        console.log(h1Element[0], testClass[1])
+        console.log(luluId.innerHTML)
+        console.log(getComputedStyle(luluId).color)
+        // luluId.innerText = 'Parking';
+        // luluId.style.color = 'blue';
+        // luluId.style.cssText = 'background-color:green; font-size:20px;'
+        // luluId.innerHTML = '<div>inner</div>'
+        // luluId.remove()
+    </script>
+</body>
+</html>

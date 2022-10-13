@@ -49,3 +49,25 @@
    - tips for jQuery
       - using function and variable for code
       - using boolean(true/false) for event
+>**2022-10-12**
+- about JQuery
+   - make tab menu
+   - make tooltip
+   - make accordion
+   - make fixed header
+   - make basic calculator
+>**2022-10-13**
+- about python
+   - python introduction
+   - basic python grammar
+   - python tool(?), Anaconda,jupyter,VS code
+   - print
+   - input
+   - variable
+   - datatype, JSON
+   - Operator
+   - Conditional, loop
+   - Function
+   - Class
+   - import, err handling
+   - IO
