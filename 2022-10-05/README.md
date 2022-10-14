@@ -1,5 +1,5 @@
 ## Stuffs today
->**2022-10-05**
+>*topic*
 - about HTML
    - webpage, HTML,CSS,javascript
    - HTML Doc structure, !Doctype,head,body
