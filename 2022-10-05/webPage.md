@@ -1,12 +1,15 @@
-## **Webpage**
+# **Webpage**
 ---
-### *what happens when we type url on browser?*
+## *what happens when we type url on browser?*
 We usually use urls to get a webpage.   
 When we type url on brower, browser sends request to web server.   
 Sever in response to this request, sends brower data, constructing web page-HTML, CSS, JavaScript.   
-Using these data, browser composes webpage - called rendering - and show it to us 
+Using these data, browser composes webpage - called rendering - and show it to us. 
 ![](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview/basic_static_app_server.png)
 *img from MDN(https://developer.mozilla.org)*   
 
-
-webpage에서 HTML, CSS, JavaScript의 역할
+There are 3 languages for webpage.   
+Each language and its role      
+- HTML, basic frame of webpage, also fill contents of it
+- CSS, design of webpage
+- JavaScript, interaction functions of web page like click
