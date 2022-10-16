@@ -1,0 +1,199 @@
+# **Start HTML**
+
+## *make HTML doc*
+Browser read HTML document and render webpage. (from top to bottom)   
+For HTML doc, make file like 'title.html'. '.html' is extension for HTML doc.   
+Below is basic structure of HTML doc,
+```HTML
+<!DOCTYPE html>
+<html lang = "en">
+<header>
+<meta charset = "UTF-8">
+<title> </title>
+</header>
+<body> 
+
+</body>
+</html>
+```
+```<!DOCTYPE html>``` declare it's HTML doc, placed at first   
+```<html> </html>``` beginning and endding of HTML   
+```<header> </header>``` header part, include data which explain HTML doc   
+```<body> </body>``` body part, include contents of webpage   
+   
+If use VS Code for HTML doc, it provides basic structure - just type 'html:5'.   
+Don't need to write those all.   
+
+---
+## *HTML Elements*
+HTML consists of a series of elements.   
+Most of HTML elements looks like,
+```HTML
+<tag attribute = "value"> content </tag>
+```
+![](https://wikimedia.org/api/rest_v1/media/math/render/svg/37506127f0730d9b6035530f46c706af4e2319d4)   
+*img from wikipedia*
+
+Nomally element start ```<'tag name'>``` and end ```</'tag name'>```.   
+Some elements don't have end tag like ```<img src="">```, called Void element.   
+Attribute provide additional information about element.   
+An element can be place inside of other element. It's called nesting.   
+For more detail, see [MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)  
+
+---
+## *Basic Elements*
+- ### h1-h6   
+    : make title. bigger the number smaller the font-size.
+```HTML
+<h1>title</h1>
+<h2>title</h2>
+```
+<h1>title</h1>
+<h2>title</h2>
+
+- ### p
+    : make paragraph.
+```html
+<p>paragraph</p>
+```
+<p>paragraph</p>
+
+- ### strong and em
+    : bold and italic text.
+```html
+<p>this is <strong>strong</strong>. and this is <em>em</em></p>
+```
+<p>this is <strong>strong</strong>. and this is <em>em</em></p>
+
+- ### a
+    : make a link. attribute "target = '_blank'", open link on new tab.
+```html
+<a href="https://google.com">google</a>
+```
+<a href="https://google.com">google</a>
+```html
+<a href="https://google.com" target="_blank">google</a>
+```
+<a href="https://google.com" target="_blank">google</a>
+
+- ### img
+    : add img. no end tag
+```html
+<img src="https://placeimg.com/200/200/any">
+```
+<img src="https://placeimg.com/200/200/any">
+
+*useful site 'placeimg.com' for random img*
+
+- ### ul and ol
+    : make list. use with li
+```html
+<ul>
+    <li>list1</li>
+    <li>list2</li>
+</ul>
+<ol>
+    <li>list1</li>
+    <li>list2</li>
+</ol>
+```
+<ul>
+    <li>list1</li>
+    <li>list2</li>
+</ul>
+<ol>
+    <li>list1</li>
+    <li>list2</li>
+</ol>
+
+- ### table
+    : make table. tr for row, td for colum
+```html
+<table>
+    <tr>
+        <th>head1</th>
+        <th>head2</th>
+    </tr>
+    <tr>
+        <td>body1</td>
+        <td>body2</td>
+    </tr>
+</table>
+```
+<table>
+    <tr>
+        <th>head1</th>
+        <th>head2</th>
+    </tr>
+    <tr>
+        <td>body1</td>
+        <td>body2</td>
+    </tr>
+</table>
+
+- ### form and input
+    : can gather data and send it to server.
+```html
+<form action='/'>
+    <label>e-mail
+        <input type='email'>
+    </label>
+    <label>name
+        <input type='text'>
+    </label>
+    <label>password
+        <input type='password'>
+    </label>
+</form>
+```
+<form action='/'>
+    <label>e-mail
+        <input type='email'>
+    </label><br>
+    <label>name
+        <input type='text'>
+    </label><br>
+    <label>password
+        <input type='password'>
+    </label>
+</form>
+
+---
+## *Semantic*
+Consider the meaning of the element, rather than how it shows.   
+For instance, using ```<h1>``` not ```<p>``` or ```<span>``` for the title.   
+It's important for SEO(Search Engine Optimization) and easy-to-read code.   
+There are semantic elements only for this semantic purpose, like ```<header>```, ```<nav>```, ```<main>```, ```<section>```, ```<article>```, ```<aside>```,  ```<detail>```, ```<footer>```   
+Use like,
+```html
+<body>
+    <header>
+        <h1>title</h1>
+        <nav>
+            <ul>
+                <li>menu1</li>
+                <li>menu2</li>
+                <li>menu3</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>title</h2>
+            <p></p>
+        </section>
+        <article>
+            <h2>title</h2>
+            <p></p>
+        </article>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+</body>
+```
+
+---
+## *Web Standards*
+Recommanded way to write HTML for webpage. Advantages for SEO.   
+Can check [here](https://validator.w3.org).
