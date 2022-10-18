@@ -1,21 +1,25 @@
 # Stuffs today
 ## *topic*
-about Webpage
+### about Webpage
+   - How browser works
    - HTML, CSS, JavaScript   
 
-about HTML
+### about HTML
    - Grammar for HTML
    - HTML elements
    - Basic HTML elements
    - Sementic
    - Web standard
    
-about CSS
-   - 3 ways apply CSS, style tag in head,style attribute,css file
-   - Selector, element,class,id and mixing
-   - Font, color,background color,size,fontfamily
-   - How to use web fonts
-   - Box model, contents,padding,border,margin  
+### about CSS
+   - 3 ways apply style to HTML element
+   - CSS rule set
+   - Selector and Combinator
+   - Basic CSS properties
+   - Box model
+
+### How to apply Web Font
+   - google web font
 
 ---
 ## *file explain*   
@@ -30,14 +34,13 @@ about CSS
 - htmlT_09, practice using ```<img>``` elements as contents
 - htmlT_10, practice using ```<table>``` elements
 - htmlT_11, use basic elements make doc
-
-
-12. CSS, use style attribute, apply CSS
-13. CSS, use style tag in head, apply CSS
-14. CSS, make .css file and link it to HTML doc, apply CSS
-15. CSS, use element selector, apply CSS
-16. CSS, use class selector, apply CSS
-17. CSS, use id selector, apply CSS
+>
+- CSST_01, use style attribute apply style
+- CSST_02, use style element in head, apply style
+- CSST_03, make .css file and link it to HTML doc, apply style
+- CSST_04, practice using element selector
+- CSST_05, practice using class selector
+- CSST_06, practice using id selector
 18. CSS, use proper selector, make doc
 19. CSS, multiple selector use
 20. CSS, selector using >
