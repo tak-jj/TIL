@@ -1,4 +1,4 @@
-# Stuffs today
+# **Stuffs today**
 ## *topic*
 ### about Webpage
    - How browser works
@@ -18,8 +18,9 @@
    - Basic CSS properties
    - Box model
 
-### How to apply Web Font
+### Web Font
    - google web font
+   - How to apply
 
 ---
 ## *file explain*   
@@ -35,22 +36,22 @@
 - htmlT_10, practice using ```<table>``` elements
 - htmlT_11, use basic elements make doc
 >
-- CSST_01, use style attribute apply style
-- CSST_02, use style element in head, apply style
-- CSST_03, make .css file and link it to HTML doc, apply style
-- CSST_04, practice using element selector
-- CSST_05, practice using class selector
-- CSST_06, practice using id selector
-18. CSS, use proper selector, make doc
-19. CSS, multiple selector use
-20. CSS, selector using >
-21. CSS, selector using +
-22. CSS, change font
-23. CSS, change font size
-24. CSS, font-weight, font-style, font color using rgb
-25. CSS, apply web font
-26. CSS, Box model size change
-27. CSS, Box model padding
-28. CSS, Box model border
-29. CSS, Box model margin
-30. CSS, apply padding and margin, make doc
+- cssT_01, use style attribute apply style
+- cssT_02, use style element in head, apply style
+- cssT_03, make .css file and link it to HTML doc, apply style
+- cssT_04, practice using element selector
+- cssT_05, practice using class selector
+- cssT_06, practice using id selector
+- cssT_07, practice using selector
+- cssT_08, practice using descendant combinator
+- cssT_09, practice using child combinator
+- cssT_10, practice using adjacent sibling combinator
+- cssT_11, use font-family property change font
+- cssT_12, practice using font-size property
+- cssT_13, practice various properties handling font
+- cssT_14, practice applying web font
+- cssT_15, practice changing size of content
+- cssT_16, practice changing padding
+- cssT_17, practice changing border
+- cssT_18, practice changing margin
+- cssT_19, apply padding and margin style doc
