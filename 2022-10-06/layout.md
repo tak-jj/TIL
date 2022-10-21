@@ -27,7 +27,35 @@ clear: left;
 clear: right;
 clear: both;
 ```
-overflow는 content의 크기가 element의 크기를 넘어갈 때 표시하는 방식을 결정한다.
+When contents of an element is to big to fit in element, use ```overflow``` to control how it to be seen.   
+Overflow declaration written
+```CSS
+overflow: visible;
+/* default value, show every contents */
+overflow: hidden;
+/* hide contents overed */
+overflow: scroll;
+/* make scroll for overed contents */
+```
+To use ```overflow:hidden;``` to block element can show background of its parent element.
 
 ---
 ## *Position*
+Position property set position status of element.   
+Written
+```CSS
+position: static;
+/* default value */
+position: relative;
+position: absolute;
+position: fixed;
+```
+Using property ```top, bottom, left, right``` can move elements. They move differently according to their position status.   
+Should careful that those properties don't mean direction of move. They mean distance element away from reference point. For example ```top: 10px``` element is place 10px down from reference point.   
+
+Each position status have different reference point.   
+Static elements can't move. They are placed in normal flow.  
+Relative elements move from their normal position.   
+Absolute elements move from their closest parent element whose position is not static.   
+Relative position is not used much for move, but make an element reference point for absolute position.   
+Fixed elements move from viewport of browser. Fixed element can screen other elements behind.

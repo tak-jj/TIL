@@ -1,8 +1,7 @@
 # Stuffs today
 ## *topic*
 ### about CSS
-   - Layout, float,clear,overflow
-   - Position reference, static,absolute,relative,fixed
+   - Layout, normal flow, float, position
    - Responsive Web, %value,mediaquery,meta viewport
    
 ### Bootstrap
@@ -10,8 +9,18 @@
 
 ---
 ## *file explain*   
-1. CSS, understanding position relative and absolute
-2. CSS, understanding position fixed and float
-3. CSS, set layout and apply padding and margin
-4. CSS, apply media query
-5. CSS, apply media query, make doc
+- cssP_01, understand float property
+- cssP_02, understand clear and overflow property
+- cssP_03, understand position property
+- cssP_04, understand meida query
+- cssT_01, move element whose postion value is absolute
+- cssT_02, use ```float``` and ```positon:fixed``` make layout
+- cssT_03, set layout and make doc
+- cssT_04, apply media query make doc
+
+---
+## for more
+
+for bootstrap exercise,   
+try to copy
+https://github.com/pangol/page101
