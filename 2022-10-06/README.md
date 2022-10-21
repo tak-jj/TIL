@@ -2,7 +2,7 @@
 ## *topic*
 ### about CSS
    - Layout, normal flow, float, position
-   - Responsive Web, %value,mediaquery,meta viewport
+   - Responsive web
    
 ### Bootstrap
    - How to use Bootstrap
@@ -13,14 +13,15 @@
 - cssP_02, understand clear and overflow property
 - cssP_03, understand position property
 - cssP_04, understand meida query
+>
 - cssT_01, move element whose postion value is absolute
 - cssT_02, use ```float``` and ```positon:fixed``` make layout
 - cssT_03, set layout and make doc
 - cssT_04, apply media query make doc
 
 ---
-## for more
+## *for more*
 
 for bootstrap exercise,   
-try to copy
+try to follow
 https://github.com/pangol/page101
