@@ -12,19 +12,19 @@
 
 ---
 ## *file explain*
-- jsP_01, understand variable declartion
-- jsPractice02, variable calculation
-- jsPractice03, understanding datatype - array
-- jsPractice04, array handling
-- jsPractice05, understanding datatype - object
-- jsPractice06, object handling
-- jsPractice07, understanding mixing array & object
-- jsPractice08, understanding function
-- jsPractice09, if statement
-- jsPractice10, if statement with object
-- jsPractice11, if statement using and, or, if else
-- jsPractice12, for statement with array
-- jsPractice13, for & if statement with array & object
+- jsP_01, understand variable declaration
+- jsP_02, understand variable declaration
+- jsP_03, understand datatype, array
+- jsP_04, understand datatype, array
+- jsP_05, understand datatype, object
+- jsP_06, understand datatype, object
+- jsP_07, understand object in array
+- jsP_08, understand function
+- jsP_09, understand conditional
+- jsP_10, understand conditional
+- jsP_11, understand conditional using &&, ||
+- jsP_12, understand loop
+- jsP_13, understand using conditional with loop
 >
 - jsTask01, make array-sum function
 - jsTask02, make judge even/odd function
