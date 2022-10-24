@@ -3,12 +3,10 @@
 ### about Javascript
    - Variable
    - Datatype
-
-   - Function declaration, use variable, return
-   - if,else, for
-   - use JS, let HTML elements as a variable
-   - use JS, handle HTML elements
-   - make event, click,resize
+   - Function
+   - Conditional and Loop
+   - Handling HTML elements
+   - Add events to HTML elements
 
 ---
 ## *file explain*
@@ -26,12 +24,24 @@
 - jsP_12, understand loop
 - jsP_13, understand using conditional with loop
 >
-- jsTask01, make array-sum function
-- jsTask02, make judge even/odd function
-- jsTask03, input array, sum even contents function
-- jsTask04, input object-element-array, sum odd object value function
-- jsTask05, input number, sum 1 to number function
-- jsTask06, input array, count assigned element function
-- jsTask07, input array, average assigned element function
+- jsT_01, make array-sum function
+- jsT_02, make judge even/odd function
+- jsT_03, make array-even-sum function
+- jsT_04, make object-value-odd-sum function 
+- jsT_05, make int-sum function
+- jsT_06, make count function
+- jsT_07, make mean function
 >
-- jsHtmlPractice01, get HTML elements as variable, handling elements
+- jsHtmlP_01, declare HTML elements as variable and handle them
+- jsHtmlP_02, add event to HTML element
+- jsHtmlP_03, add event to window
+>
+- jsHtmlT_01, merge first and second ```<p>``` and print on third
+- jsHtmlT_02, use loop print 10 'hello'
+- jsHtmlT_03, print 'hello' as many as written
+- jsHtmlT_04, change color of content according to odd even
+- jsHtmlT_05, change background color of ```<p>``` on odd place
+- jsHtmlT_06, make hello-alert button
+- jsHtmlT_07, make button changing background color
+- jsHtmlT_08, make add-hello button
+- jsHtmlT_09, if size of window changed, display its width

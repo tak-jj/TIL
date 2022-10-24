@@ -1,6 +1,7 @@
 let subs = ['kor','math','kor','eng','sci']
 function countKorean(array){
     let count = 0
+    // make variable to store count
     for(let i=0; i<array.length; i++){
         if(array[i] == 'kor'){
             count += 1;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jsHtmlPractice</title>
+    <title>Practice</title>
 </head>
 <body>
     <h1>hello</h1>
@@ -17,13 +17,24 @@
         let luluId = document.getElementById('#lulu');
         console.log(h1Element, testClass, luluId)
         console.log(h1Element[0], testClass[1])
+        // elements are stored as array type
         console.log(luluId.innerHTML)
         console.log(getComputedStyle(luluId).color)
+        // get attribute value of element
+        
         // luluId.innerText = 'Parking';
+        // change contents of element
+        
         // luluId.style.color = 'blue';
         // luluId.style.cssText = 'background-color:green; font-size:20px;'
+        // change css, attribute of element
+
         // luluId.innerHTML = '<div>inner</div>'
+        // change HTML of element
+
         // luluId.remove()
+        // luluId.empty()
+        // delete HTML element. Empty just delete contents, not element
     </script>
 </body>
 </html>
