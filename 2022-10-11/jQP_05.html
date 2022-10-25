@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <ul>
+        <li class="first">1</li>
+        <li class="second">2</li>
+        <li class="third">3</li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        let $ul = $('ul');
+        $ul.append('<li>4</li>');
+        $('<li>5</li>').appendTo($ul);
+
+        $ul.prepend('<li>0</li>');
+        $('<li>-1</li>').prependTo($ul);
+
+        $('.first').before($('.second'));
+        $('.third').insertBefore($('.first'));
+
+        $('.third').before($('<li>2.5</li>'));
+        // also can use add element
+    </script>
+</body>
+</html>

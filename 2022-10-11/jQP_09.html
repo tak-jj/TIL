@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <ul>
+        <li>1</li>
+        <li class="second">2</li>
+        <li>3</li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        let len = $('li').length;
+        console.log(len);
+
+        let index = $('.second').index();
+        console.log(index);
+
+        let index2 = $('li').index($('.second'));
+        console.log(index2);
+        // when index return negative number, it means 'not found'
+
+        let li = $('li');
+        li.each(function(index, item){
+            $(item).css('color', 'red');
+        })
+    </script>
+</body>
+</html>

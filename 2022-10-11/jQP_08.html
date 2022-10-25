@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <div class="parent">
+        <p>1</p>
+        <p class="super1">super</p>
+        <p>2</p>
+        <p class="super2">super</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        $('.super1').next().css('color','red');
+        $('.super1').prev().css('color','blue');
+
+        $('p').css('background-color','green')
+        .filter('.super2')
+        .css('font-size','30px')
+
+        $('p').filter(function(index){
+            return index % 2 == 0
+        })
+        .css('font-weight','bold')
+    </script>
+</body>
+</html>
