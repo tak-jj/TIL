@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <p>4</p>
+    <div></div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        function isEven(value){
+            return value % 2 == 0;
+        }
+        function writeEven(num, elem){
+            if(isEven(num)){
+                elem.html('even');
+            }else{
+                elem.html('odd');
+            }
+        }
+
+        function init(){
+            let num = parseInt($('p').html());
+            let elem = $('div');
+            writeEven(num, elem);
+        }
+
+        init();
+        // coding method mainly using function
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <p>1</p>
+    <p>2</p>
+    <p>1</p>
+    <p>2</p>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        let $p = $('p');
+
+        for(let i=0; i<$p.length; i++){
+            if($p.eq(i).html() == 1){
+                $p.eq(i).css('background-color','blue');
+            }else{
+                $p.eq(i).css('background-color','red');
+            }}
+            // .eq(index) to JQuery element use like array[index] in Javascript element
+    </script>
+</body>
+</html>

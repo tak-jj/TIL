@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <div class="parent"></div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        let people = [
+            {name:'kim', age:16},
+            {name:'park', age:18},
+            {name:'lee', age:20}
+        ];
+
+        function createElement (array){
+            let elementArray = [];
+            let totalElement = $('<h1>total: ' + array.length + '</h1>')
+            elementArray.push(totalElement);
+            for(let i=0; i<array.length; i++){
+                let personElement = $('<p>name: ' + array[i]['name'] + ' age: ' + array[i]['age'] + '</p>')
+                if(array[i]['age'] > 18){
+                    personElement.css('background-color','red');
+                }
+                elementArray.push(personElement);
+            }
+            return elementArray;
+        }
+
+        function render(){
+            let $parent = $('.parent');
+            let elementArray = createElement(people);
+            elementArray.forEach(function(element){
+                $parent.append(element);
+            })
+        }
+
+        render()
+
+    </script>
+</body>
+</html>
