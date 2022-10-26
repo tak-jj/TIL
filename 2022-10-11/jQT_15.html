@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <div></div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        let elements = [
+            {'el':'h1', 'contents':'hello'},
+            {'el':'p', 'contents':'test1'},
+            {'el':'p', 'contents':'test2'},
+            {'el':'p', 'contents':'test3'},
+            {'el':'h1', 'contents':'world'}
+        ]
+
+        function createElement(array){
+            let newElement = []
+            for(let i=0; i<array.length; i++){
+                newElement.push($('<' + array[i]['el'] + '>' + array[i]['contents'] + '</' + array[i]['el'] + '>'))
+            }
+            return newElement;
+        }
+
+        function render(){
+            let newElement = createElement(elements);
+            for(let i=0; i<newElement.length; i++){
+                $('div').append(newElement[i]);
+            }
+        }
+
+        render()
+    </script>
+</body>
+</html>
