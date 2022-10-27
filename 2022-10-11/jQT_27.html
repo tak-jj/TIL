@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <h1>0</h1>
+    <button id="plus">+</button>
+    <button id="reset">reset</button>
+    <button id="minus">-</button>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        let $h1 = $('h1')
+        let num = parseInt($h1.html())
+        $('#plus').click(function(){
+            num += 1;
+            $h1.html(num);
+        })
+        $('#minus').click(function(){
+            if(num == 0){
+                alert('DO NOT SUPPORT NEGATIVE')
+            }else{
+            num -= 1;
+            $h1.html(num);
+        }})
+        $('#reset').click(function(){
+            num = 0
+            $h1.html(num);
+        })
+    </script>
+</body>
+</html>

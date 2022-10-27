@@ -20,6 +20,12 @@
 - jQP_07, understand traversal methods
 - jQP_08, understand traversal methods and filter
 - jQP_09, understand length, index and each methods
+- jQP_10, understand hide and show
+- jQP_11, understand basic animation
+- jQP_12, understnad custom animation
+- jQP_13, understand basic events
+- jQP_14, understand make events using on method
+- jQP_15, understand custom event
 >
 - jQT_01, use JQuery apply CSS to element
 - jQT_02, use JQuery apply CSS to element
@@ -45,3 +51,7 @@
 - jQT_22, change background color of sibling element placed next to 'next' class element
 - jQT_23, change background color of sibling element placed in front of 'prev' class element 
 - jQT_24, if element has odd content, change background-color
+- jQT_25, hide content of 'first' class and show 'second' at the same time / in turn
+- jQT_26, move pink box to the right end and blue box to the left
+- jQT_27, click '+' num increase 1, '-' decrease 1, 'reset' turn 0, don't go to negative
+- jQT_28, calculate first and second number using button operator and display

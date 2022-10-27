@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <h1>0</h1>
+    <p>30</p>
+    <p>20</p>
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <button id="multiply">*</button>
+    <button id="divide">/</button>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        let num1 = parseInt($('p').eq(0).html());
+        let num2 = parseInt($('p').eq(1).html());
+        let $h1 = $('h1');
+
+        $('button').click(function(){
+            if($(this).attr('id') == 'plus'){
+                $h1.html(num1 + num2);
+            }else if($(this).attr('id') == 'minus'){
+                $h1.html(num1 - num2);
+            }else if($(this).attr('id') == 'multiply'){
+                $h1.html(num1 * num2);
+            }else{
+                $h1.html(num1 / num2);
+            }
+        })
+    </script>
+</body>
+</html>
