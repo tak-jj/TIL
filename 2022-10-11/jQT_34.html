@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        div{
+            position:relative;
+            width:100px;
+            height:100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <button>move down</button>
+    <div></div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        $('button').click(function(){
+            $('div').animate({'top':'100px'});
+        })
+    </script>
+</body>
+</html>

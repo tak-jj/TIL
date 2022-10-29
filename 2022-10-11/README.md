@@ -7,7 +7,6 @@
    - length, index, each
    - make animation
    - add event
-      - using boolean(true/false) for event
 
 ---
 ## *file explain*
@@ -55,3 +54,9 @@
 - jQT_26, move pink box to the right end and blue box to the left
 - jQT_27, click '+' num increase 1, '-' decrease 1, 'reset' turn 0, don't go to negative
 - jQT_28, calculate first and second number using button operator and display
+- jQT_29, make button switching background-color
+- jQT_30, click button, add array element to table, if window resized under width 500px, reset
+- jQT_31, calculate inputed number using button operator and display
+- jQT_32, according to window size, change color
+- jQT_33, click button, add elements in object
+- jQT_34, clikc button, move ```div```

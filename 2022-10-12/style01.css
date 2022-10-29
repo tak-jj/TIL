@@ -1,0 +1,17 @@
+ul{
+    list-style: none;
+}
+li{
+    background-color: lightseagreen;
+    font-size: 30px;
+    margin: 20px; padding: 20px;
+    display: inline-block;
+}
+.balloon{
+    background-color: bisque;
+    color: #333;
+    position: absolute;
+    padding: 10px;
+    display: none;
+    z-index: 100;
+}

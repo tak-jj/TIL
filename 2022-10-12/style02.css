@@ -1,0 +1,26 @@
+.contents{
+    width:50%;
+}
+.header-content{
+    background-color: lightseagreen;
+    color: white;
+    margin-bottom: 2px;
+    padding: 10px;
+    border-radius: 10px 0 0 0;
+}
+.select{
+    background-color: white;
+    color: black;
+    font-weight: 900;
+    border: 1px solid lightseagreen;
+    border-bottom: none;
+}
+.content{
+    padding:10px;
+    border: 1px solid lightseagreen;
+    margin-bottom: 2px;
+    display: none;
+}
+.content h1{
+    margin-top: 5px;
+}

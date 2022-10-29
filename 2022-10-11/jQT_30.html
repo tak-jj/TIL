@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <button>Click</button>
+    <table border="1"></table>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script>
+        let people = [{'name':'park','age':20},{'name':'lee','age':30},{'name':'kim','age':18}]
+        let count = 0
+        $('button').click(function(){
+            if(count == people.length){
+                alert('no more data');
+            }else{
+                $('table').append('<tr><td>' + people[count]['name'] + '</td><td>' + people[count]['age'] + '</td></tr>')
+                count += 1;
+            }
+        })
+
+        $(window).resize(function(){
+            if($(this).width() <= 500){
+                $('table').empty();
+                count = 0;
+            }
+        })
+    </script>
+</body>
+</html>
