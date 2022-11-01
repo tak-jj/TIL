@@ -1,5 +1,5 @@
 # Stuffs today
-## *topics*
+## *topic*
 ### about Javascript
    - Variable
    - Datatype

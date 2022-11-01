@@ -1,4 +1,4 @@
-# **Stuff Today**
+# **Stuffs Today**
 ## *topic*
 - about JQuery
    - make tab menu

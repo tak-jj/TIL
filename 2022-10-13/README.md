@@ -1,15 +1,15 @@
->**2022-10-13**
-- about python
-   - python introduction
-   - basic python grammar
-   - python tool(?), Anaconda,jupyter,VS code
-   - print
-   - input
-   - variable
-   - datatype, JSON
+# **Stuffs Today**
+## *topic*
+- Python Basic
+   - Print
+   - Input
+   - Variable
+   - Data type
    - Operator
-   - Conditional, loop
+   - Conditional
+   - Loop
+   - IO(input/output)
    - Function
    - Class
-   - import, err handling
-   - IO
+   - Error handling
+   - Import
