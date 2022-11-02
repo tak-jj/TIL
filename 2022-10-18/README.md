@@ -1,10 +1,8 @@
->**2022-10-18**
+# **Stuffs today**
+## *topic*
+### use Azure services make
+    - OCR
+    - Custom vision
+### Numpy
 
-use Azure Cognitive service.   
-OCR   
-QNA   
-Computer vision, Object Detect
-
-Numpy
-nbarray
 

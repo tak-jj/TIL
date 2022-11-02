@@ -1,4 +1,5 @@
 # **Stuffs today**
 ## *topic*
-- use Azure services
+### use Azure services make
     - Computer Vision
+    - Face recognition

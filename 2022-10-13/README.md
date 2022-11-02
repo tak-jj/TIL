@@ -1,6 +1,6 @@
 # **Stuffs Today**
 ## *topic*
-- Python Basic
+### Python Basic
    - Print
    - Input
    - Variable
