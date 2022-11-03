@@ -17,4 +17,6 @@ It would be big help telling me weird point
 - **JavaScript Basic** : *2022.10.7*
 - **JavaScirpt in HTML** : *2022.10.7*
 - **JQuery** : *2022.10.11 ~ 12*
-- **Python Basic** : *2022.10.13*
+- **Python Basic** : *2022.10.13 ~ 14*
+- **Azure Cognitive Service** : *2022.10.15 ~ 16*
+- **Numpy** : *2022.10.16*
