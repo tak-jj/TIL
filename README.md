@@ -18,5 +18,6 @@ It would be big help telling me weird point
 - **JavaScirpt in HTML** : *2022.10.7*
 - **JQuery** : *2022.10.11 ~ 12*
 - **Python Basic** : *2022.10.13 ~ 14*
-- **Azure Cognitive Service** : *2022.10.15 ~ 16*
-- **Numpy** : *2022.10.16*
+- **Azure Cognitive Service** : *2022.10.17 ~ 18*
+- **Numpy** : *2022.10.18*
+- **Pandas** : *2022.10.19*
