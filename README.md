@@ -21,3 +21,4 @@ It would be big help telling me weird point
 - **Azure Cognitive Service** : *2022.10.17 ~ 18*
 - **Numpy** : *2022.10.18*
 - **Pandas** : *2022.10.19*
+- **Matplotlib** : *2022.10.19*

@@ -3,6 +3,10 @@
 ### Pandas
     - Series
     - DataFrame
+    - Calculation of Pandas objects
+    - Basic statistics analysis using pandas
 
-Data analysis using Excel   
-Matplotlib
+### Matplotlib
+    - Plot
+    - Scatter
+    - Error bar
