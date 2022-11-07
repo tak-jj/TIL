@@ -1,10 +1,12 @@
+# **Stuffs today**
 ## *topic*
+### Web crawling
+    - BeautifulSoup
 
-Flask   
-Web crawling   
-- BeautifulSoup, aka bs4
-- Selenium
-DataBase
-- SQL language(Structured Question Language)
-- MySQL with Azure
-- MS SQL Server
+### Flask
+    - Flask basic
+
+### DataBase
+    - SQL language (Structured Question Language)
+    - https://www.mysqltutorial.org/
+    - MySQL in Azure
