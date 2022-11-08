@@ -22,3 +22,5 @@ It would be big help telling me weird point
 - **Numpy** : *2022.10.18*
 - **Pandas** : *2022.10.19*
 - **Matplotlib** : *2022.10.19*
+- **Database basic** : *2022.10.20*
+- **Data Preprocessing** : *2022.10.21*
