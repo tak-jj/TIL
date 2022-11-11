@@ -1,6 +1,8 @@
-# **Stuff Today**
+# **Stuffs Today**
 ## *topic*
-- AI basic theories
-- Orange Data Mining
-- Supervised regression classification
-- unsupervised
+### AI basic theories
+### Visualization flow of AI using Orange Data Mining
+- Basic work flow
+- Regression
+- Classification
+- Clustering
