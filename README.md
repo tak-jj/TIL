@@ -24,4 +24,5 @@ It would be big help telling me weird point
 - **Matplotlib** : *2022.10.19*
 - **Database basic** : *2022.10.20*
 - **Data Preprocessing** : *2022.10.21*
-- **Basic Machine Learning use Orange Data mining** : *2022.10.26*
+- **Basic Machine Learning use Orange Data mining** : *2022.10.26 ~ 27*
+- **Basic Machine Learning Practice wiht sklearn** : *2022.10.28*
