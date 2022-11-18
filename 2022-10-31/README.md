@@ -1,7 +1,13 @@
-topic
+# **Stuffs today**
+## *topic*
+### Expression of formulas
+    - linear, quadratic, cube, exponential function
 
-expression of formulas
-Tensor
-keras
-Process of DeepLearning
-Docker
+### Tensor
+    - Scalr, 1D, 2D, 3D tensor
+    - Broadcasting
+    - Transposition
+
+### Perceptron
+    - Logical gate
+    - Activation function
