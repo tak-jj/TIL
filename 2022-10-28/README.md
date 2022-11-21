@@ -1,8 +1,8 @@
 # **Stuffs today**
 ## *topic*
 ### Supervised learning
-    - Regression
-    - Classification
+- Regression
+- Classification
 
 ### Unsupervised learning
-    - Clustering
+- Clustering

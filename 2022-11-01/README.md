@@ -1,4 +1,6 @@
-## *Topics*
-- Binary Classification, imdb data
-- News data Classification, Reuter news
-- Boston Housing Regression
+# **Stuffs today**
+## *topic*
+### Deep learning practice
+- IMDb data, Binary Classification
+- Reuter news, News data Classification
+- Boston Housing, Regression
